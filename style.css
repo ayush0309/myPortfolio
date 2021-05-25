@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;1,500;1,600&display=swap');
+/* !font-family: 'Bebas Neue', cursive;
+!font-family: 'Poppins', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #222444;
+    color: #F5FAFA;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+li, a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #9DF2F2;
+  border-radius: 20px;
+}
+
+/* !NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.logo  {
+    height: 35px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease;
+}
+
+.nav_links li a:hover {
+    color: #9DF2F2;
+}
+
+#contactMe {
+    color: #9DF2F2;
+    transition: all 0.3s ease;
+}
+
+#contactMe:hover {
+    color: #F5FAFA;
+}
+
+/* !NAVBAR ENDS */
+
+/* !HOME */
+.home {
+    justify-content: center;
+}
+.homeContent {
+   display: flex;
+}
+
+.homeText  {
+    width: 50vw;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2.5px;
+    font-size: 34px;
+    padding:210px 0px 0px 140px;
+}
+
+#name {
+    color: #9DF2F2;
+}
+
+.homeImage {
+    width: 50vw;
+    text-align: center;
+    padding-top: 140px;
+}
+.homeImage img {
+    height: 250px;
+}
+
+.social_prof {
+    padding-top: 200px;
+}
+
+.social_prof ul{
+    display: flex;
+}
+
+.social_prof i{
+    margin-right: 50px;
+    font-size: 34px;
+}
+
+.social_links {
+    transition: all 0.3s ease;
+}
+.social_links:hover {
+    color: #9DF2F2;
+}
+
+/* !Home Ends */
+
+/* !About */
+#about {
+    margin-top: 100px;
+    padding-left: 140px;
+    margin-bottom: 50px;
+}
+.aboutMe p {
+    font-family: 'Poppins', sans-serif;
+}
+.aboutMe h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 28px;
+    color: #9DF2F2;
+}
+.aboutMe h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #9DF2F2;
+}
+#aboutMe_Desc {
+    font-size: 28px;
+    font-style: italic;
+}
+
+.skills {
+    margin-top: 50px;
+}
+.skills h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 28px;
+    color: #9DF2F2;
+}
+.skills img {
+    height: 100px;
+    margin: 20px 80px 20px 0;
+}
+
+.skills_icons {
+    text-align: center;
+}
